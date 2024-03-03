@@ -57,7 +57,7 @@ echo -e "\033[1;33m AGUARDE..."
 echo ""
 clear
 cd /var/www/html || exit
-wget https://github.com/JeanRocha91x/psshplus-/raw/main/gestorssh/gestorssh.zip > /dev/null 2>&1
+wget https://raw.githubusercontent.com/sisbrasil/sisweb/main/install.sh > /dev/null 2>&1
 unzip gestorssh.zip > /dev/null 2>&1
 rm -rf gestorssh.zip index.html > /dev/null 2>&1
 chmod 777 -R /var/www/html > /dev/null 2>&1
